@@ -1,0 +1,49 @@
+$whiteColor: #ffffff;
+$border: 1px solid #d5d5d5;
+.colwidth
+{
+  width: 20px;
+}
+
+
+
+////////////////////////
+.upperNav {
+  font-size: 16px;
+  background: url("/../assets/img/navbar.png");
+  // height: 100px;
+  background-size:cover;
+  
+  color: $whiteColor;
+  font-family: Roman;
+  .know {
+    background-color: #004977;
+  }
+  .services {
+    background-color: #14a99b;
+  }
+
+ 
+    
+  }
+// @media only screen and (max-width:670px){
+//   .upperNav
+//   {
+//     height: 250px;
+//   }
+// }
+
+.topnav 
+{
+a{
+  color: white;
+}
+a:hover {
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+}
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
